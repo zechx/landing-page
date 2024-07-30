@@ -1,0 +1,257 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.box1 {
+    background-color: #1F2937;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    gap: 48px;
+    min-height: 300px;
+    padding-bottom: 150px;
+}
+
+.content1-left {
+    justify-content: flex-start;
+    margin-right: auto;
+    padding-left: 24px;
+}
+
+.placeholder_img {
+    width: 550px;
+    height: 250px;
+}
+
+.content1-right {
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 24px;
+}
+
+
+.box2 {
+    background-color: #F9FAF8;
+    margin: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+
+.box3 {
+    background-color: #e5e7eb;
+}
+
+.box4 {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.header {
+    display: flex;
+    padding: 24px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.nav-links {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+h1 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.sign-up {
+    font-size: 18px;
+    color: #F9FAF8;
+    border: none;
+    text-align: center;
+    background-color: #3882F6;
+    font: bold;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+h2 {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 14px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 40px;
+}
+
+.imgcuadrada {
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #808080;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    max-width: 175px;
+}
+
+.cuadrados {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: left;
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 100px;
+}
+
+.signature {
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+    padding-left: 450px;
+    padding-right: 450px;
+    margin-bottom: 10px;
+}
+
+.modal {
+    background: #3882F6;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 16px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;  
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.sign-up2 {
+    font-size: 18px;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    text-align: center;
+    background-color: #3882F6;
+    font: bold;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.headermodal {
+    font-weight: bold;
+    font-size: 28px;
+    color: #F9FAF8;
+}
+
+.contentmodal {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #E5E7EB; 
+}
+
+.copyright {
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+
+
+li {
+    text-decoration: none;/* this removes the line under the links */
+}
+
+a {
+    text-decoration: none;/* this removes the line under the links */
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;/* this removes the dots on the list items*/
+    text-decoration: none;/* this removes the line under the links */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
